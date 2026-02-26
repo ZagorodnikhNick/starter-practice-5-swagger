@@ -203,6 +203,13 @@ npm i -D swagger-jsdoc swagger-ui-express
    - `POST /api/products`
    - одну из операций с `:id` (GET/:id или PATCH/:id или DELETE/:id)
 
+### Схема
+
+    1.	OpenAPI — формат/стандарт “паспорта API”.
+    2.	Вы пишете паспорт в коде через @swagger (или можно отдельным YAML/JSON файлом).
+    3.	swagger-jsdoc превращает комментарии → OpenAPI JSON.
+    4.	swagger-ui-express показывает этот JSON как веб-документацию (/api-docs).
+
 ### Ссылки на официальную документацию
 
 ```text
